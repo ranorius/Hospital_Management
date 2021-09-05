@@ -26,7 +26,7 @@
         <div class="text-center">
             <?php
 
-            $id= $_GET['emp_Id'];
+            $id= $_GET['id'];
             //Deleting Database
 
 
