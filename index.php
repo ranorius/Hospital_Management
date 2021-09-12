@@ -48,12 +48,6 @@
 
     </div>
 
-
-    <!-- Home main Pic -->
-    <!-- <div class="col-12 p-1"><img src="https://phantom-marca.unidadeditorial.es/cda475257ad306e68c8c055ad4a48e6c/crop/0x0/1220x687/resize/1320/f/jpg/assets/multimedia/imagenes/2021/08/05/16281779456287.jpg" alt="" class="img-fluid"></div> -->
-
-
-
     <!-- Posts -->
 	<div class="row">
 
@@ -79,8 +73,13 @@
                         <!-- Delete Button -->
                         <div class="col-12 text-right">
                             <button class="btn btn-danger " onclick="deleteThis(<?php echo $row['emp_Id']; ?>)">
-                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                <i class="fa fa-trash" aria-hidden="true"></i>
                             </button>
+
+                            <a class="btn btn-secondary " href="update.php">
+                                <i class="fa fa-pencil" aria-hidden="true"></i>
+                            </a>
+
                         </div>
 
 
